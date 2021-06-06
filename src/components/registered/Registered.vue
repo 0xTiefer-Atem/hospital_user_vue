@@ -4,7 +4,7 @@
       <div slot="header" class="head-text">
         <span>用户注册</span>
       </div>
-      <h3 class="title">云智就医用户注册</h3>
+      <h3 class="title">医路有你-用户注册</h3>
       <el-form :rules="registerRules" :inline="true" label-width="100px" label-position="right" class="register-container" :model="registerUserInfo">
         <el-row>
           <el-col>
@@ -63,7 +63,7 @@
 </template>
 
 <script>
-  import {request} from "../../network/request";
+  import {request} from "@/network/request";
 
   export default {
     name: "Registered",

@@ -6,6 +6,7 @@ const Index = () =>import('../components/index/Index');
 const Appointment = () => import('../components/appointment/Appointment');
 const Payment = () => import('../components/payment/Payment');
 const Registered = () => import('../components/registered/Registered');
+const StaffInfoList = () => import('../components/staff/StaffInfoList');
 
 Vue.use(VueRouter);
 
@@ -38,6 +39,10 @@ const routes = [
       {
         path: 'payment',
         component: Payment
+      },
+      {
+        path: 'staffinfolist',
+        component: StaffInfoList
       },
       {
         path: 'registered',
